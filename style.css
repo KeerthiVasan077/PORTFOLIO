@@ -14,7 +14,7 @@
     --gradient-2: linear-gradient(135deg, #ec4899, #f43f5e);
     --gradient-3: linear-gradient(135deg, #06b6d4, #0ea5e9);
     --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.3);
-    --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 10px 30px rgba(88, 69, 69, 0.2);
     --transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
