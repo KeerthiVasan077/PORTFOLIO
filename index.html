@@ -3,40 +3,262 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio - AI/ML Engineer & Full Stack Developer">
+    <meta name="theme-color" content="#6366f1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+    <title>Keerth Vasan - Portfolio</title>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+    <!-- Animated Background -->
+    <div class="gradient-orb" data-parallax="0.5"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <i class="fas fa-code"></i>Keerth Vasan
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-        </nav>
-    </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>This is a brief introduction about myself.</p>
-    </section>
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project">
-            <h3>Project Title</h3>
-            <p>Description of the project.</p>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to My Portfolio</h1>
+            <p class="hero-subtitle">AI/ML Engineer | Full Stack Developer | Tech Innovator</p>
+            <a href="#projects" class="cta-button">
+                <i class="fas fa-arrow-down"></i>Explore My Work
+            </a>
         </div>
     </section>
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form id="contactForm">
-            <input type="text" id="name" name="name" placeholder="Your Name" required>
-            <input type="email" id="email" name="email" placeholder="Your Email" required>
-            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div>
+                    <p class="about-description">
+                        Hello! I'm a passionate AI/ML Engineer and Full Stack Developer with a keen interest in cutting-edge technologies. 
+                        I specialize in building intelligent applications that solve real-world problems. With expertise in machine learning, 
+                        web development, and cloud technologies, I'm committed to creating impactful digital solutions.
+                    </p>
+                    <p class="about-description">
+                        I love exploring new technologies, contributing to open source, and continuously learning to stay at the forefront of innovation.
+                    </p>
+                </div>
+                <div class="skills">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Web Development</span>
+                        <span class="skill-tag">Deep Learning</span>
+                        <span class="skill-tag">Cloud Computing</span>
+                        <span class="skill-tag">Data Analysis</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+            </div>
+            <div class="stats-container" style="margin-top: 4rem;">
+                <div class="stat">
+                    <h3>50+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat">
+                    <h3>2+</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat">
+                    <h3>100+</h3>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="stat">
+                    <h3>15+</h3>
+                    <p>Technologies</p>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="section-container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>ML Prediction Model</h3>
+                    <p>Advanced machine learning model for predicting stock market trends using neural networks and historical data analysis. 
+                    Achieved 87% accuracy in predictions.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>Data Science</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        View Project <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>E-Commerce Platform</h3>
+                    <p>Full-stack e-commerce solution with React frontend, Node.js backend, and MongoDB database. 
+                    Features include payment integration and real-time inventory management.</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        View Project <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <h3>Image Recognition AI</h3>
+                    <p>Computer vision application using CNN for real-time object detection and classification. 
+                    Deployed as a web service with REST API and achieved real-time performance.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>OpenCV</span>
+                        <span>Deep Learning</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        View Project <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Chatbot AI Assistant</h3>
+                    <p>Intelligent chatbot powered by natural language processing. Supports multiple languages, 
+                    context understanding, and seamless integration with web platforms.</p>
+                    <div class="project-tags">
+                        <span>NLP</span>
+                        <span>Python</span>
+                        <span>API</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        View Project <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">Have a project in mind? Let's collaborate and create something amazing together!</p>
+            
+            <div class="contact-content">
+                <!-- Contact Form -->
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input 
+                            type="text" 
+                            id="name" 
+                            class="form-input" 
+                            placeholder="Your Name" 
+                            required
+                        >
+                    </div>
+                    <div class="form-group">
+                        <input 
+                            type="email" 
+                            id="email" 
+                            class="form-input" 
+                            placeholder="Your Email" 
+                            required
+                        >
+                    </div>
+                    <div class="form-group full-width">
+                        <input 
+                            type="text" 
+                            id="subject" 
+                            class="form-input" 
+                            placeholder="Subject" 
+                            required
+                        >
+                    </div>
+                    <div class="form-group full-width">
+                        <textarea 
+                            id="message" 
+                            class="form-input" 
+                            placeholder="Your Message" 
+                            rows="6" 
+                            required
+                        ></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i>Send Message
+                    </button>
+                </form>
+
+                <!-- Social Links -->
+                <div class="social-links">
+                    <h3>Connect With Me</h3>
+                    <div class="socials">
+                        <a href="https://github.com" class="social-icon" title="GitHub" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com" class="social-icon" title="LinkedIn" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com" class="social-icon" title="Twitter" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="mailto:your.email@example.com" class="social-icon" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="section-container">
+            <div class="footer-content">
+                <p>© 2026 Keerth Vasan. All rights reserved.</p>
+                <p>Crafted with <i class="fas fa-heart"></i> and passion for technology</p>
+            </div>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
