@@ -154,7 +154,7 @@ function animateCounters() {
                     observer.unobserve(entry.target);
                 }
             });
-        }, { threshold: 0.5 });
+        }, { threshold: 0.4 });
 
         observer.observe(stat);
     });
@@ -208,7 +208,7 @@ style.textContent = `
     .ripple {
         position: absolute;
         border-radius: 50%;
-        background: rgba(255, 255, 255, 0.6);
+        background: rgba(255, 255, 255, 0.7);
         transform: scale(0);
         animation: ripple-animation 0.6s ease-out;
         pointer-events: none;
