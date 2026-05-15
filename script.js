@@ -189,10 +189,10 @@ progressBar.style.cssText = `
     position: fixed;
     top: 0;
     left: 0;
-    height: 3px;
+    height: 4px;
     background: linear-gradient(90deg, #6366f1, #ec4899, #06b6d4);
     width: 0%;
-    z-index: 999;
+    z-index: 989;
 `;
 document.body.appendChild(progressBar);
 
@@ -208,7 +208,7 @@ style.textContent = `
     .ripple {
         position: absolute;
         border-radius: 50%;
-        background: rgba(255, 255, 255, 0.7);
+        background: rgba(205, 255, 255, 0.7);
         transform: scale(0);
         animation: ripple-animation 0.6s ease-out;
         pointer-events: none;
